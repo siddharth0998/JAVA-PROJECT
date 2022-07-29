@@ -1,6 +1,6 @@
 public class ReverseAString {
     public static void main(String[] args) throws IndexOutOfBoundsException {
-        String s = "      My     Name    Is     Siddharth     ";
+        String s = "      My     Name    Is            Siddharth     ";
         String reverse_string = "";
         String reverse_word = "";
 
@@ -10,7 +10,7 @@ public class ReverseAString {
         // for (int i = s.length() - 1; i >= 0; i--) {
         // reverse_string = reverse_string + s.charAt(i);
         // }
-        // System.out.println("Approsch-1 Output:" + reverse_string);
+        // System.out.println("Approach-1 Output:" + reverse_string);
 
         // approach-2
 
